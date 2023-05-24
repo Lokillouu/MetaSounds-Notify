@@ -22,3 +22,6 @@ with the music's beat drops. That was the case... until now.
 
 With MetaSounds Notify, we have the solution. Whenever the track reaches a desired point, it sends an interface call
 back to the spawner, which then spawns the next wave in perfect synchronization with the music.
+
+If you want to create your own nodes, take a look at MetaSoundNotifyNode.cpp, where I left some guidance for adventurers
+like me. Good luck, warrior!
