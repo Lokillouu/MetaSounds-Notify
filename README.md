@@ -12,7 +12,7 @@ Enjoy complete compatibility with both Blueprints and C++, allowing for flexible
 
 Personal use case:
 I developed a spawner for the game "Ethernal" that synchronizes enemy waves with the music. Each time a wave concludes,
-the next track loop seamlessly transitions in, and as each track loop begins, a new wave commences. Rather than abruptly
+the next track loop seamlessly transitions in, and as each track loop begins, a new wave starts. Rather than abruptly
 cutting the loops, we manipulate the Loop Start and Loop Duration parameters to ensure a smooth transition from one loop
 to another.
 
@@ -20,5 +20,5 @@ However, this approach sometimes leads to a situation where a wave ends while th
 Consequently, it becomes challenging to determine the precise moment to spawn the next wave in order to synchronize it 
 with the music's beat drops. That was the case... until now.
 
-With MetaSounds Notify, we have implemented a solution. Whenever the track reaches a desired point, it sends an interface call
+With MetaSounds Notify, we have the solution. Whenever the track reaches a desired point, it sends an interface call
 back to the spawner, which then spawns the next wave in perfect synchronization with the music.
