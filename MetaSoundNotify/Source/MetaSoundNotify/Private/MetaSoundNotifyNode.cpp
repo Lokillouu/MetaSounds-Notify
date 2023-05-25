@@ -1,6 +1,6 @@
 #include "MetasoundParamHelper.h"
 #include "MetasoundEnumRegistrationMacro.h"
-#include "E:\Unreal\Projects\Ethernal\Plugins\MetaSoundNotify\Source\MetaSoundNotify\Public\MetaSoundNotifyInterface.h"
+#include "MetaSoundNotifyInterface.h"
 
 // Define a localized namespace for the node!
 #define LOCTEXT_NAMESPACE "MetasoundStandardNodes_NotifyNode"
